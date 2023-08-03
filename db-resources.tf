@@ -1,4 +1,5 @@
 # RDS MYSQL database
+# RDS test comment
 resource "aws_db_instance" "two-tier-db-1" {
   allocated_storage           = 5
   storage_type                = "gp2"
